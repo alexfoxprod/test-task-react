@@ -1,0 +1,44 @@
+.App {
+  display: flex;
+  justify-content: space-around;
+}
+.board_row {
+  margin: 0;
+  height: 51px;
+  width: fit-content;
+  border-top: 1px solid #000;
+}
+.board_row:nth-last-child(1) {
+  border-bottom: 1px solid #000;
+}
+.board_col {
+  margin: 0;
+  width: 50px;
+  height: 50px;
+  border-left: 1px solid #000;
+  display: inline-block;
+}
+.board_col:nth-last-child(1) {
+  border-right: 1px solid #000;
+}
+.active {
+  background-color: #03a8f4;
+}
+.history_block {
+  background-color: #fbf8e3;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.button_blue {
+  background-color: #0075d8;
+  width: 120px;
+  margin: 10px 0 50px 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 9px;
+  color: #fff;
+}
+.custom_select {
+  padding: 7px;
+}
